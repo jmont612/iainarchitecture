@@ -25,10 +25,10 @@
 
     <link
       rel="shortcut icon"
-      href="assets/img/favicon.png"
+      href="assets/img/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
     <!-- custom styles (optional) -->
     <link href="assets/css/plugins.css" rel="stylesheet" />
@@ -68,19 +68,43 @@
             <ul class="extend-container">
               <li><a href="index.html">Inicio</a></li>
               <li><a href="project-0.html">Maro</a></li>
-              <li><a href="project-1.html">Introducción</a></li>
-              <li>
-                <a href="project-2.html">Historia del dibujo arquitectónico</a>
+              <li class="custom-drop-down">
+                <a href="#">IA y Arquitectura</a>
+                <ul>
+                  <li><a href="project-1.html">Introducción</a></li>
+                  <li>
+                    <a href="project-2.html"
+                      >Historia del dibujo arquitectónico</a
+                    >
+                  </li>
+                  <li>
+                    <a href="project-3.html"
+                      >Avances de la inteligencia artificial</a
+                    >
+                  </li>
+                  <li>
+                    <a href="project-4.html"
+                      >Inteligencia artificial y Arquitectura</a
+                    >
+                  </li>
+                </ul>
               </li>
-              <li>
-                <a href="project-3.html"
-                  >Avances de la inteligencia artificial</a
-                >
-              </li>
-              <li>
-                <a href="project-4.html"
-                  >Inteligencia artificial y Arquitectura</a
-                >
+
+              <li class="custom-drop-down">
+                <a href="#">Detección del cancer</a>
+                <ul>
+                  <li><a href="project-5.html">Marco teórico</a></li>
+                  <li>
+                    <a href="project-6.html"
+                      >Detección tardía del cancer global</a
+                    >
+                  </li>
+                  <li>
+                    <a href="project-7.html"
+                      >Detección tardía del cancer en el Perú</a
+                    >
+                  </li>
+                </ul>
               </li>
             </ul>
           </nav>
@@ -137,7 +161,7 @@
               <div
                 class="bg-image cover-bg"
                 data-overlay="0"
-                data-image-src="assets/img/project/project4/1.jpg"
+                data-image-src="assets/img/project/project6/1.jpg"
               ></div>
             </div>
 
@@ -148,15 +172,12 @@
             <div class="project-title" id="dsn-hero-parallax-title">
               <div class="title-text-header">
                 <div class="cat">
-                  <span>Título</span>
+                  <span>Detección tardía del</span>
                 </div>
                 <span class="title-text-header-inner">
-                  <span data-dsn-animate="ajax"
-                    >Inteligencia artificial y Arquitectura</span
-                  >
+                  <span data-dsn-animate="ajax">Cáncer a nivel global</span>
                 </span>
               </div>
-
               <div class="sub-text-header" data-dsn-animate="ajax">
                 <h5>María del Rosario Rodríguez Zegarra</h5>
               </div>
@@ -166,128 +187,94 @@
 
         <div class="wrapper">
           <div class="root-project">
-            <div class="container intro-project section-margin">
-              <div class="intro-text">
-                <div
-                  class="title-cover"
-                  data-dsn-grid="move-section"
-                  data-dsn-opacity="0.1"
-                  data-dsn-duration="170%"
-                  data-dsn-move="0%"
-                >
-                  IA
-                </div>
-                <div class="inner">
-                  <h2 data-dsn-animate="text">Depth2img</h2>
-                  <p data-dsn-animate="up">
-                    Una inteligencia que no solo tomará en cuenta el largo, el
-                    alto, los colores, las texturas… sino también hará la
-                    predicción de un mapa de profundidad de los objetos que
-                    estén en una imagen dándole una escala y dimensión
-                    proporcionada a los elementos en nuestra arquitectura.
-                    Inicio de un vínculo entre la IA y la arquitectura.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="container section-margin">
-              <div
-                class="img-box-small dsn-parallax-full"
-                data-dsn-grid="move-up"
-              >
-                <img
-                  class="has-top-bottom"
-                  src="assets/img/project/project4/2.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="box-seat box-seat-full section-margin">
-              <div class="container-fluid">
-                <div class="inner-img" data-dsn-grid="move-up">
-                  <img
-                    src="assets/img/project/project2/3.jpg"
-                    alt=""
-                    style="transform: scale(1.3)"
-                    data-dsn-scale="1"
-                    data-dsn-y="30%"
-                  />
-                </div>
-                <div class="pro-text" data-dsn-animate="up">
-                  <h3>
-                    Diseña edificios residenciales con las especificaciones y
-                    parámetros
-                  </h3>
-                  <p>
-                    Bueno esto es lo que propone la nueva página web
-                    <strong>Architechtures</strong> Puedes decirle dimensiones,
-                    alturas, en realidad la característica que quieras y te
-                    genera un diseño optimizado que puedes ajustar si lo ves
-                    necesario. Al final, te entregará un modelo 3D del proyecto
-                    y, adicionalmente, te puede dar un presupuesto total si le
-                    das los precios unitarios de los materiales. Es bastante
-                    impresionante el nivel de detalle al que puede llegar y el
-                    tiempo que te puede ahorrar.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <section class="client-see section-margin" data-dsn-animate="up">
+            <div class="box-gallery-vertical section-margin section-padding">
+              <div class="mask-bg"></div>
               <div class="container">
-                <div class="inner">
-                  <div class="left">
-                    <h2
-                      class="title"
-                      data-dsn-grid="move-section"
-                      data-dsn-move="-60"
-                      data-dsn-duration="100%"
-                      data-dsn-opacity="1"
-                    >
-                      <span class="text">Sitio web<br />Architechtures</span>
-                    </h2>
+                <div class="row align-items-center h-100">
+                  <div class="col-lg-6">
+                    <div class="box-im" data-dsn-grid="move-up">
+                      <img
+                        class="has-top-bottom"
+                        src="assets/img/project/project6/2.jpg"
+                        alt=""
+                        data-dsn-move="20%"
+                      />
+                    </div>
                   </div>
 
-                  <div class="items">
-                    <div class="bg"></div>
-                    <div class="item">
-                      <div class="quote">
-                        <p>
-                          "Architechtures diseña en horas lo que ocupa meses"
-                        </p>
-                      </div>
-                      <div class="bottom">
-                        <div class="label">
-                          <div class="cell">
-                            <a
-                              href="https://architechtures.com/"
-                              target="_blank"
-                              >sitio web</a
-                            >
-                          </div>
-                        </div>
-                      </div>
+                  <div class="col-lg-6">
+                    <div class="box-info">
+                      <p data-dsn-animate="up">
+                        La detección temprana del cáncer es crucial para mejorar
+                        las posibilidades de supervivencia y tratamiento
+                        exitoso. Según la American Cancer Society (ACS), la tasa
+                        de supervivencia relativa a cinco años para todos los
+                        tipos de cáncer combinados es del <strong>70%</strong> si se detecta
+                        temprano, en comparación con el <strong>39%</strong> si se detecta en una
+                        etapa posterior.
+                      </p>
+
+                      <p data-dsn-animate="up">
+                        Además, la detección temprana también puede ayudar a
+                        reducir la necesidad de tratamientos más invasivos y
+                        costosos, lo que puede mejorar la calidad de vida del
+                        paciente y reducir el costo de la atención médica en
+                        general.
+                      </p>
+
+                      <p data-dsn-animate="up">
+                        Sin embargo, según un publicado en el Journal of the
+                        National Cancer Institute, la detección tardía del
+                        cáncer sigue siendo un problema de estudio significativo
+                        en los Estados Unidos. El estudio encontró que el <strong>43%</strong> de
+                        los casos de cáncer de mama, el <strong>53%</strong> de los casos de
+                        cáncer colorrectal y el <strong>63%</strong> de los casos de cáncer de
+                        pulmón se diagnostican en etapas avanzadas.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
 
             <div class="container-fluid section-margin">
               <div
                 class="img-box-small dsn-parallax-full"
                 data-dsn-grid="move-up"
-                data-dsn-triggerhook="0"
               >
-                <img
-                  class="has-top-bottom"
-                  src="assets/img/project/project4/4.gif"
-                  alt=""
-                  data-dsn-y="30%"
-                  data-dsn-scale="1.08"
-                />
+                <img src="assets/img/project/project6/3.jpg" alt="" />
+                <div class="cap">
+                  <span>Muestras de Sangre</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="container intro-project section-margin">
+              <div class="intro-text">
+                  <div class="inner">
+                      <h6 data-dsn-animate="up">Es necesario mejorar la educación y conciencia pública sobre la importancia de la detección temprana del cáncer y aumentar el acceso a pruebas y exámenes de detección para ayudar a reducir estas estadísticas alarmantes.
+                      </h6>
+              </div>
+          </div>
+
+            <div class="box-seat section-margin">
+              <div class="container-fluid">
+                <div class="inner-img" data-dsn-grid="move-up">
+                  <img src="assets/img/project/project6/4.jpg" alt="" />
+                </div>
+                <div class="pro-text" data-dsn-grid="move-section">
+                  <h6 data-dsn-animate="text">
+                    Otro estudio realizado por la Organización Mundial de la
+                    Salud (OMS) encontró que la detección tardía del cáncer es
+                    un problema importante en todo el mundo. Según la OMS, el
+                    cáncer es responsable de aproximadamente una de cada seis
+                    muertes en el mundo. Además, la OMS estima que el <strong>60%</strong> de los
+                    casos de cáncer se diagnostican en etapas avanzadas en
+                    países de ingresos bajos y medianos, lo que hace que el
+                    tratamiento sea más difícil y reduzca la probabilidad de
+                    supervivencia.
+                  </h6>
+                </div>
               </div>
             </div>
           </div>
@@ -296,24 +283,29 @@
             <div id="dsn-next-parallax-img" class="bg">
               <div
                 class="bg-image cover-bg"
-                data-overlay="0"
-                data-image-src="assets/img/project/project4/3.jpg"
+                data-overlay="4"
+                data-image-src="assets/img/project/project7/1.jpg"
               ></div>
             </div>
 
             <div id="dsn-next-parallax-title" class="project-title">
-              <a href="index.html" data-dsn-ajax="next-project">
+              <a
+                href="project-7.html"
+                class="effect-ajax"
+                data-dsn-ajax="next-project"
+              >
                 <div class="title-text-header">
                   <div class="title-text-header-inner">
-                    <span>Reflexión</span>
+                    <span>Detección tardía del cáncer en el Perú</span>
                   </div>
                 </div>
                 <div class="sub-text-header">
-                  <h5>Volver al inicio</h5>
+                  <h5>Siguiente</h5>
                 </div>
               </a>
             </div>
           </div>
+
         </div>
       </div>
     </main>
@@ -331,11 +323,11 @@
     <!-- cursor -->
     <div class="cursor">
       <div class="cursor-helper cursor-view">
-        <span>VER</span>
+        <span>VIEW</span>
       </div>
 
       <div class="cursor-helper cursor-close">
-        <span>Cerrar</span>
+        <span>Close</span>
       </div>
 
       <div class="cursor-helper cursor-link"></div>
